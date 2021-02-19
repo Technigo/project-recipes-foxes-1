@@ -7,3 +7,6 @@ During this week we will be having a remote collaborative session – YAY! Durin
 During the session, your team will be challenged to build a website that lists recipes  – YUM 😋.
 
 All data should be fetched from the [Edamam API](https://developer.edamam.com/edamam-docs-recipe-api). Your page will be built based on the following design:
+
+## Uber Eats
+https://www.notion.so/technigo/Uber-Eats-3f3750c2b4c042da8a879fde66538688
