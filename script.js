@@ -17,8 +17,10 @@ fetch(API_URL)
           <div id="recipe-card" class="recipeCard">
             <img src="${element.recipe.image}"/>
             <p>${element.recipe.label}</p>
+            <p>Author: ${element.recipe.source}</p>
             <a href="${element.recipe.url}">View recipe</a>
             <p>Ingredients: ${element.recipe.ingredientLines}</p>
+            <p>Cooking time: ${element.recipe.totalTime} minutes</p>
           </div>
         ` 
         });
