@@ -17,7 +17,7 @@ fetch(startURL)
           recipesContainer.innerHTML += `
           <div id="recipe-card" class="recipeCard">
             <img src="${element.recipe.image}"/>
-            <p>${element.recipe.label}</p>
+            <h1>${element.recipe.label}</h1>
             <p>Author: ${element.recipe.source}</p>
             <a href="${element.recipe.url}">View recipe</a>
             <p>Ingredients: ${element.recipe.ingredientLines}</p>
@@ -43,7 +43,7 @@ const fetchData = () => {
           recipesContainer.innerHTML += `
           <div id="recipe-card" class="recipeCard">
             <img src="${element.recipe.image}"/>
-            <p>${element.recipe.label}</p>
+            <h1>${element.recipe.label}</h1>
             <p>Author: ${element.recipe.source}</p>
             <a href="${element.recipe.url}">View recipe</a>
             <p>Ingredients: ${element.recipe.ingredientLines}</p>
