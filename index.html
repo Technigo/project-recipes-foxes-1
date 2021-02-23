@@ -13,10 +13,10 @@
     </header>
     <section id="search-container" class="search-container">
         <form id="search-form" class="form" onsubmit="fetchData(event)">
-            <label for="search-form">
+            <label class="search-button-parent" for="search-form">
                 <input name="search-form" id="search-input" class="search-input" type="search" placeholder="Search your recipe">
+                <button value="submit" type="submit" class="search-button" id="search-button">Find recipe</button>
             </label>
-            <button value="submit" type="submit" class="search-button" id="search-button">Find recipe</button>
         </form>
     </section>
     <section id="recipes-container" class="recipes-container"></section>
